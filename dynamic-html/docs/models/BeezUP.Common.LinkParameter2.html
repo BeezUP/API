@@ -1,0 +1,57 @@
+
+<h2>BeezUP.Common.LinkParameter2</h2>
+<ul class="parameter">
+  <li class="param-required-true">name : String
+    <br/>The name of the parameter
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-">value : String
+    <br/>The value of the parameter
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-">required : Boolean
+    <br/>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-">in : String
+    <br/>* path: if the parameter must be pass in the path uri * header: if the parameter must be passed in http header * query: if the parameter must be passed in querystring * body: if the paramter must be passed in the body 
+      <dl class="param-enum">
+        <dt>Enum:
+            <dd>path</dd>
+            <dd>header</dd>
+            <dd>query</dd>
+            <dd>body</dd>
+        </dt>
+      </dl>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-">type : String
+    <br/>The value type of the parameter
+      <dl class="param-enum">
+        <dt>Enum:
+            <dd>string</dd>
+            <dd>integer</dd>
+            <dd>number</dd>
+            <dd>boolean</dd>
+            <dd>object</dd>
+            <dd>array</dd>
+            <dd>date</dd>
+            <dd>date-time</dd>
+        </dt>
+      </dl>
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-">lovLink : BeezUP.Common.LOVLink2
+    <br/>This parameter expect the values indicated in this list of values.
+  </li>
+</ul>
+<ul class="parameter">
+  <li class="param-required-">lovRequired : Boolean
+    <br/>If true, you MUST use indicate a value from the list of values otherwise it&#39;s a freetext
+  </li>
+</ul>
