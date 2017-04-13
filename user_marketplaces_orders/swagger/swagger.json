@@ -1,7 +1,7 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "description" : "This API will gives you the ability to manage your orders",
+    "description" : "This API will gives you the ability to manage your orders.",
     "version" : "2.0",
     "title" : "Marketplaces - Orders",
     "contact" : {
